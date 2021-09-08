@@ -1,0 +1,12 @@
+extends ../base
+
+
+block title
+  | FOJI | Mantenedores
+
+block body
+  .wrapper(aria-page="mantenedores_front") 
+    include ../navbar
+    include ../navigation
+    .container 
+      #mantenedores_front(data-can-add='{{ can_add }}') 

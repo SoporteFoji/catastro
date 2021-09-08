@@ -1,0 +1,17 @@
+extends ../base
+
+block title
+  | FOJI | Eliminar Administrador
+
+block body
+  .wrapper(aria-page="administrador-del")
+    include ../navbar
+    include ../navigation
+    #administrador-del(data-administrator-id='{{ object.id }}' data-can-del='{{ can_del }}')
+    | {% if request.user.administrator %}
+    #user-type(data-usertype="administrator")
+    | {% elif request.user.coordinator %}
+    #user-type(data-usertype="coordinator")
+    | {% else %}
+    #user-type(data-usertype="visitor")
+    | {% endif %}

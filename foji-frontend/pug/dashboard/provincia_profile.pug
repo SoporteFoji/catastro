@@ -1,0 +1,15 @@
+extends ../base
+
+block title
+  | FOJI | Mantenedor Provincia
+
+block body
+  .wrapper(aria-page="provincia_profile")
+    include ../navbar
+    include ../navigation
+    #provincia-profile(data-provincia-id='{{ object.id }}' data-can-edit='{{ can_edit }}')
+    | {% if request.user.administrator %}
+    #user-type(data-usertype="administrator")
+    | {% else %}
+    #user-type(data-usertype="visitor")
+    | {% endif %}

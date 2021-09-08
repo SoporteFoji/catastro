@@ -1,0 +1,21 @@
+nav.navbar.navbar-expand-md.sticky-top.navbar-light.bg-light#navbar-main
+  .container
+    a.navbar-brand.ml-2.ml-md-0(href='/home/')
+      img(src='/static/foji/assets/img/logo_foji.png' alt='FOJI').header-logo
+    button#mobile-toggler.btn.btn-info.m-2(type="button" aria-controls="#navbarContent" aria-expanded="false" aria-label="Menu")
+      .icon.menu-icon
+    .collapse.navbar-collapse#navbarContent
+      | {% if request.user.administrator %}
+      #nav-logged-in.ml-auto.nav-item.dropdown(data-username='{{ request.user.administrator.personal_information.full_name }}' data-usertype="administrator")
+      | {% elif request.user.coordinator %}
+      #nav-logged-in.ml-auto.nav-item.dropdown(data-username='{{ request.user.coordinator.personal_information.full_name }}' data-usertype="coordinator")
+      | {% else %}
+      .my-2.ml-auto
+        form.text-center.justify-content-center.form-inline(method='POST' action='/ingresar/')
+          | {% csrf_token %}
+          #nav-login-form.form-inline
+        small.d-block.text-right.mr-3.mt-1
+          .icon.lock-icon
+          a(href="/recuperar-clave/") Olvide la contraseña
+
+      | {% endif %}

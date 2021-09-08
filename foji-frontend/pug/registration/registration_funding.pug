@@ -1,0 +1,20 @@
+extends ../base
+
+
+block title
+  | FOJI | Financiamiento
+
+block body
+  .wrapper(aria-page="registration_coordinator") 
+    include ../navbar
+    .float-content.catastro-title.mt-5
+      h4 Formulario
+      h1 Catastro foji
+      .title-separator
+      p 
+        | Este formulario permite a las orquestas y ensambles ser parte de la
+        | base de datos de la Fundaci&oacute;n, para poder informarse de las
+        | diversas actividades que realizamos y para acceder a todos los
+        | beneficios que esta entrega.
+    .full-box.box-form.container
+      #funding-ajax(data-orchestra-id='{{ object.id }}')

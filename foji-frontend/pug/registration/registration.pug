@@ -1,0 +1,31 @@
+extends ../base
+
+
+block title
+  | FOJI | Registro
+
+block body
+  | {% if request.user.is_authenticated %}
+  script
+    | window.location.href = '/registro/orquesta/';
+  | {% endif %}
+  .wrapper(aria-page="registration")
+    include ../navbar
+    .float-content.catastro-title.mt-5
+      h4 Formulario
+      h1 Catastro foji
+      .title-separator
+      p Este formulario permite a las orquestas y ensambles ser parte de la base de datos de la Fundaci&oacute;n, para poder informarse de las diversas actividades que realizamos y para acceder a todos los beneficios que esta entrega.
+    .full-box.box-form.container
+      form(method='POST')
+        | {% csrf_token %}
+        .box-title
+          h4 Registro Instituci&oacute;n Sostenedora
+        .box-content.container
+          #institution-form
+        .box-title
+          h4 Registro Usuario Coordinador 
+        .box-content.container
+          #coordinator-form
+        .bottom-box.text-right
+          button.btn.btn-primary(type='submit') Siguiente

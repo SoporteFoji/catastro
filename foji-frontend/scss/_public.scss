@@ -1,0 +1,62 @@
+.card-no-img{
+  min-height: 170px;
+  background-color: $cyan;
+}
+.card-no-img .camera-icon{
+  width: 5em;
+  height: 5em;
+  margin-top: 3.5em;
+}
+#public-list h5{
+  font-size: 1em;
+  font-weight: bold;
+}
+#public-list .card-footer:hover{
+  background-color: $gray-200;
+}
+#public-list .card-footer a{
+  position:relative;
+  display: block;
+  color: $gray-600;
+}
+#public-list .card-footer a:hover{
+  text-decoration: none;
+}
+#public-list .card-footer .next-icon{
+  margin-left: 0.5em;
+  margin-bottom: -0.1em;
+}
+#public-list .card-body .social-icon{
+  margin: 0.2em;
+  filter: grayscale(100%);
+  opacity: 0.5;
+}
+
+#public-list .card-body .social-icon:hover{
+  filter: grayscale(0);
+  opacity: 1;
+}
+#regions-map .tooltip{
+  opacity: 1;
+  margin-top: -3.2em;
+  font-size:1.1em;
+}
+#regions-map .tooltip .arrow{
+  left: 50%;
+  margin-left: -0.3em;
+}
+#regions-map .tooltip-inner{
+  max-width: 100%;
+}
+#regions-select{
+  display: none;
+}
+
+@media (max-width: 1080px) {
+  #regions-map{
+    display:none;
+  }
+  #regions-select{
+    display: block;
+  }
+}

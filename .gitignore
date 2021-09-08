@@ -1,0 +1,20 @@
+# vagrant
+.vagrant/
+
+# virtualenv
+.env/
+
+# vim
+*.swp
+
+# emacs
+*~*
+*\#*
+
+# media
+foji_project/media
+*.DS_Store
+*.env
+foji_project/dist
+*.log
+

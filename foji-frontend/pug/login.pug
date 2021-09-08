@@ -1,0 +1,21 @@
+extends base
+
+
+block title
+  | Ingresar
+
+
+block body
+  .wrapper(aria-page="login")
+    include navbar
+    .float-content
+      .vertical-login.mt-5.mx-auto
+        | {% if form.non_field_errors %}
+        .alert.alert-warning
+          | {{ form.non_field_errors.0 }}
+        | {% endif %}
+        span.font-weight-bold Ingresa con tu usuario:
+        form.text-center.justify-content-center(method='POST' action='/ingresar/')
+          | {% csrf_token %}
+          #login-form.mt-3.ml-2.mr-2
+

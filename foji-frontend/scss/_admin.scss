@@ -1,0 +1,116 @@
+#admin-stats .badge-pill{
+  padding: 1em;
+  border-radius: 1em;
+  margin-bottom: 0.5em;
+  text-align: left;
+}
+#admin-stats h2, #admin-stats h4{
+  margin: 0;
+}
+#admin-stats h4{
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: normal;
+  font-size: 1.2em;
+}
+#admin-stats h2{
+  font-weight: bold;
+}
+.orchestras-stat {
+  background-color: #d2ae00;
+}
+.orchestras-stat h2 {
+  color: #fdefac;
+}
+.coordinators-stat {
+  background-color: #1dcaaa;
+}
+.coordinators-stat h2 {
+  color: #a1ffee;
+}
+.administrators-stat {
+  background-color: #27657b;
+}
+.administrators-stat h2 {
+  color: #00d2ff;
+}
+.instructors-stat {
+  background-color: #378974;
+}
+.instructors-stat h2 {
+  color: #00ffbd;
+}
+.directors-stat {
+  background-color: #7c5c95;
+}
+.directors-stat h2 {
+  color: #dab4f9;
+}
+
+/* LATEST ORCHESTRAS WIDGET */
+#latest-orchestras-widget .tmb-image{
+  width: 100px;
+  height: 100px;
+  background-size: 200%;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  display: inline-block;
+  vertical-align: top;
+  background-color: #c6ecf5;
+  text-align: center;
+}
+#latest-orchestras-widget .tmb-image .camera-icon{
+  width: 3em;
+  height: 3em;
+  margin-top: 2em;
+}
+#latest-orchestras-widget li{
+  list-style: none;
+  border-bottom: 1px solid #eeeeee;
+}
+#latest-orchestras-widget li:last-child{
+  border-bottom: 0;
+}
+.filter-delete .close-icon{
+  filter: invert(1);
+  width: 0.8em;
+  height: 0.8em;
+}
+.filter-delete .btn-danger{
+  padding: 0.5em 0.9em;
+}
+#search-results h1{
+  font-size: 1.7em;
+}
+#search-results .badge-info{
+  border-radius: 50%;
+  width: 3em;
+  height: 3em;
+  padding-top: 0.9em;
+  border: 1px solid #a8dfec;
+  color: #3e8190;
+}
+
+#user-select.sel-wrapper:after{
+  background-image: url("../assets/img/next-white.svg");
+  opacity: 1;
+}
+
+/* LATEST USERS WIDGET */
+#latest-users-widget li{
+  list-style: none;
+  border-bottom: 1px solid #eeeeee;
+}
+#latest-users-widget li:last-child{
+  border-bottom: 0;
+}
+#latest-users-widget .user-icon{
+  margin-top: 0.8em;
+}
+#admin-panel .close-icon{
+  width: 0.8em;
+  height: 0.8em;
+  opacity: 0.5;
+}

@@ -1,0 +1,21 @@
+version: '3'
+
+services:
+  web:
+    image: foji:latest
+    ports:
+      - '8000:8000'
+    depends_on:
+      - db
+    volumes:
+      - ./media/:/app/foji_project/media
+      - ./foji_project/foji/static/:/app/foji_project/foji/static/
+      - ./foji_project/foji/templates/:/app/foji_project/foji/templates
+      - ./foji_project/foji/migrations/:/app/foji_project/foji/migrations
+    command: python manage.py test
+
+volumes:
+  db-data:
+    external: true
+  media-data:
+    external: true

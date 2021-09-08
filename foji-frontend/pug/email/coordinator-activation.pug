@@ -1,0 +1,27 @@
+doctype transitional
+
+html(style="background-color: #e4e4e4;")
+  head
+  body(style="text-align: center;font-family: sans-serif, helvetica, arial, verdana; font-size: 14px;")
+    table(role="presentation" border="0" cellpadding="0" cellspacing="0" class="body" style="background-color: #fff;padding: 12px;margin: 0 auto;")
+      tr
+        td &nbsp;
+        td.container
+          .content
+            div(style="text-align: center;")
+              center
+                img(src="http://www.pinedo.online/foji/html/img/logo_full.png")
+            br
+            span.preheader
+            table.main(role="presentation")
+              tr
+                td.wrapper(style="text-align: left;")
+                  table(role="presentation" border="0" cellpadding="0" cellspacing="0")
+                    tr
+                      td
+                        h3 Registro usuario coordinador
+                        p Tu cuenta de usuario ha sido creada con éxito, pero necesita validación.
+                        p #[strong Para activar tu cuenta haz click] #[a(href="{{ activation_url }}") aqu&iacute;]
+                        p O visita la siguiente URL: | {{ activation_url }}
+                        p Si tienes cualquier duda, contáctanos a #[a(href="mailto:catastro@foji.cl") catastro@foji.cl]
+        td &nbsp;

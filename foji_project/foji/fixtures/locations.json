@@ -1,0 +1,3757 @@
+[
+{
+  "model": "foji.region",
+  "pk": 1,
+  "fields": {
+    "code": "15",
+    "name": "Regi\u00f3n de Arica y Parinacota"
+  }
+},
+{
+  "model": "foji.region",
+  "pk": 2,
+  "fields": {
+    "code": "01",
+    "name": "Regi\u00f3n de Tarapac\u00e1"
+  }
+},
+{
+  "model": "foji.region",
+  "pk": 3,
+  "fields": {
+    "code": "02",
+    "name": "Regi\u00f3n de Antofagasta"
+  }
+},
+{
+  "model": "foji.region",
+  "pk": 4,
+  "fields": {
+    "code": "03",
+    "name": "Regi\u00f3n de Atacama"
+  }
+},
+{
+  "model": "foji.region",
+  "pk": 5,
+  "fields": {
+    "code": "04",
+    "name": "Regi\u00f3n de Coquimbo"
+  }
+},
+{
+  "model": "foji.region",
+  "pk": 6,
+  "fields": {
+    "code": "05",
+    "name": "Regi\u00f3n de Valpara\u00edso"
+  }
+},
+{
+  "model": "foji.region",
+  "pk": 7,
+  "fields": {
+    "code": "06",
+    "name": "Regi\u00f3n del Libertador Gral. Bernando O'Higgins"
+  }
+},
+{
+  "model": "foji.region",
+  "pk": 8,
+  "fields": {
+    "code": "07",
+    "name": "Regi\u00f3n del Maule"
+  }
+},
+{
+  "model": "foji.region",
+  "pk": 9,
+  "fields": {
+    "code": "08",
+    "name": "Regi\u00f3n del Biob\u00edo"
+  }
+},
+{
+  "model": "foji.region",
+  "pk": 10,
+  "fields": {
+    "code": "09",
+    "name": "Regi\u00f3n de la Araucan\u00eda"
+  }
+},
+{
+  "model": "foji.region",
+  "pk": 11,
+  "fields": {
+    "code": "14",
+    "name": "Regi\u00f3n de los R\u00edos"
+  }
+},
+{
+  "model": "foji.region",
+  "pk": 12,
+  "fields": {
+    "code": "10",
+    "name": "Regi\u00f3n de los Lagos"
+  }
+},
+{
+  "model": "foji.region",
+  "pk": 13,
+  "fields": {
+    "code": "11",
+    "name": "Regi\u00f3n de Ais\u00e9n del Gral. Carlos Ib\u00e1\u00f1ez del Campo"
+  }
+},
+{
+  "model": "foji.region",
+  "pk": 14,
+  "fields": {
+    "code": "12",
+    "name": "Regi\u00f3n de Magallanes y de la Ant\u00e1rtica Chilena"
+  }
+},
+{
+  "model": "foji.region",
+  "pk": 15,
+  "fields": {
+    "code": "13",
+    "name": "Regi\u00f3n Metropolitana"
+  }
+},
+{
+  "model": "foji.region",
+  "pk": 16,
+  "fields": {
+    "code": "16",
+    "name": "Regi\u00f3n de \u00d1uble"
+  }
+},
+{
+  "model": "foji.province",
+  "pk": 1,
+  "fields": {
+    "code": "151",
+    "name": "Provincia de Arica",
+    "region": 1
+  }
+},
+{
+  "model": "foji.province",
+  "pk": 2,
+  "fields": {
+    "code": "152",
+    "name": "Provincia de Parinacota",
+    "region": 1
+  }
+},
+{
+  "model": "foji.province",
+  "pk": 3,
+  "fields": {
+    "code": "011",
+    "name": "Provincia de Iquique",
+    "region": 2
+  }
+},
+{
+  "model": "foji.province",
+  "pk": 4,
+  "fields": {
+    "code": "014",
+    "name": "Provincia del Tamarugal",
+    "region": 2
+  }
+},
+{
+  "model": "foji.province",
+  "pk": 5,
+  "fields": {
+    "code": "021",
+    "name": "Provincia de Antofagasta",
+    "region": 3
+  }
+},
+{
+  "model": "foji.province",
+  "pk": 6,
+  "fields": {
+    "code": "022",
+    "name": "Provincia de El Loa",
+    "region": 3
+  }
+},
+{
+  "model": "foji.province",
+  "pk": 7,
+  "fields": {
+    "code": "023",
+    "name": "Provincia de Tocopilla",
+    "region": 3
+  }
+},
+{
+  "model": "foji.province",
+  "pk": 8,
+  "fields": {
+    "code": "031",
+    "name": "Provincia de Copiap\u00f3",
+    "region": 4
+  }
+},
+{
+  "model": "foji.province",
+  "pk": 9,
+  "fields": {
+    "code": "032",
+    "name": "Provincia de Cha\u00f1aral",
+    "region": 4
+  }
+},
+{
+  "model": "foji.province",
+  "pk": 10,
+  "fields": {
+    "code": "033",
+    "name": "Provincia de Huasco",
+    "region": 4
+  }
+},
+{
+  "model": "foji.province",
+  "pk": 11,
+  "fields": {
+    "code": "041",
+    "name": "Provincia de Elqui",
+    "region": 5
+  }
+},
+{
+  "model": "foji.province",
+  "pk": 12,
+  "fields": {
+    "code": "042",
+    "name": "Provincia de Choapa",
+    "region": 5
+  }
+},
+{
+  "model": "foji.province",
+  "pk": 13,
+  "fields": {
+    "code": "043",
+    "name": "Provincia de Limar\u00ed",
+    "region": 5
+  }
+},
+{
+  "model": "foji.province",
+  "pk": 14,
+  "fields": {
+    "code": "051",
+    "name": "Provincia de Valpara\u00edso",
+    "region": 6
+  }
+},
+{
+  "model": "foji.province",
+  "pk": 15,
+  "fields": {
+    "code": "052",
+    "name": "Provincia de Isla de Pascua",
+    "region": 6
+  }
+},
+{
+  "model": "foji.province",
+  "pk": 16,
+  "fields": {
+    "code": "053",
+    "name": "Provincia de Los Andes",
+    "region": 6
+  }
+},
+{
+  "model": "foji.province",
+  "pk": 17,
+  "fields": {
+    "code": "054",
+    "name": "Provincia de Petorca",
+    "region": 6
+  }
+},
+{
+  "model": "foji.province",
+  "pk": 18,
+  "fields": {
+    "code": "055",
+    "name": "Provincia de Quillota",
+    "region": 6
+  }
+},
+{
+  "model": "foji.province",
+  "pk": 19,
+  "fields": {
+    "code": "056",
+    "name": "Provincia de San Antonio",
+    "region": 6
+  }
+},
+{
+  "model": "foji.province",
+  "pk": 20,
+  "fields": {
+    "code": "057",
+    "name": "Provincia de San Felipe de Aconcagua",
+    "region": 6
+  }
+},
+{
+  "model": "foji.province",
+  "pk": 21,
+  "fields": {
+    "code": "058",
+    "name": "Provincia de Marga Marga",
+    "region": 6
+  }
+},
+{
+  "model": "foji.province",
+  "pk": 22,
+  "fields": {
+    "code": "061",
+    "name": "Provincia de Cachapoal",
+    "region": 7
+  }
+},
+{
+  "model": "foji.province",
+  "pk": 23,
+  "fields": {
+    "code": "062",
+    "name": "Provincia Cardenal Caro",
+    "region": 7
+  }
+},
+{
+  "model": "foji.province",
+  "pk": 24,
+  "fields": {
+    "code": "063",
+    "name": "Provincia de Colchagua",
+    "region": 7
+  }
+},
+{
+  "model": "foji.province",
+  "pk": 25,
+  "fields": {
+    "code": "071",
+    "name": "Provincia de Talca",
+    "region": 8
+  }
+},
+{
+  "model": "foji.province",
+  "pk": 26,
+  "fields": {
+    "code": "072",
+    "name": "Provincia de Cauquenes",
+    "region": 8
+  }
+},
+{
+  "model": "foji.province",
+  "pk": 27,
+  "fields": {
+    "code": "073",
+    "name": "Provincia de Curic\u00f3",
+    "region": 8
+  }
+},
+{
+  "model": "foji.province",
+  "pk": 28,
+  "fields": {
+    "code": "074",
+    "name": "Provincia de Linares",
+    "region": 8
+  }
+},
+{
+  "model": "foji.province",
+  "pk": 29,
+  "fields": {
+    "code": "081",
+    "name": "Provincia de Concepci\u00f3n",
+    "region": 9
+  }
+},
+{
+  "model": "foji.province",
+  "pk": 30,
+  "fields": {
+    "code": "082",
+    "name": "Provincia de Arauco",
+    "region": 9
+  }
+},
+{
+  "model": "foji.province",
+  "pk": 31,
+  "fields": {
+    "code": "083",
+    "name": "Provincia de Biob\u00edo",
+    "region": 9
+  }
+},
+{
+  "model": "foji.province",
+  "pk": 32,
+  "fields": {
+    "code": "084",
+    "name": "Provincia de \u00d1uble",
+    "region": 9
+  }
+},
+{
+  "model": "foji.province",
+  "pk": 33,
+  "fields": {
+    "code": "091",
+    "name": "Provincia de Caut\u00edn",
+    "region": 10
+  }
+},
+{
+  "model": "foji.province",
+  "pk": 34,
+  "fields": {
+    "code": "092",
+    "name": "Provincia de Malleco",
+    "region": 10
+  }
+},
+{
+  "model": "foji.province",
+  "pk": 35,
+  "fields": {
+    "code": "141",
+    "name": "Provincia de Valdivia",
+    "region": 11
+  }
+},
+{
+  "model": "foji.province",
+  "pk": 36,
+  "fields": {
+    "code": "142",
+    "name": "Provincia del Ranco",
+    "region": 11
+  }
+},
+{
+  "model": "foji.province",
+  "pk": 37,
+  "fields": {
+    "code": "101",
+    "name": "Provincia de Llanquihue",
+    "region": 12
+  }
+},
+{
+  "model": "foji.province",
+  "pk": 38,
+  "fields": {
+    "code": "102",
+    "name": "Provincia de Chilo\u00e9",
+    "region": 12
+  }
+},
+{
+  "model": "foji.province",
+  "pk": 39,
+  "fields": {
+    "code": "103",
+    "name": "Provincia de Osorno",
+    "region": 12
+  }
+},
+{
+  "model": "foji.province",
+  "pk": 40,
+  "fields": {
+    "code": "104",
+    "name": "Provincia de Palena",
+    "region": 12
+  }
+},
+{
+  "model": "foji.province",
+  "pk": 41,
+  "fields": {
+    "code": "111",
+    "name": "Provincia de Coihaique",
+    "region": 13
+  }
+},
+{
+  "model": "foji.province",
+  "pk": 42,
+  "fields": {
+    "code": "112",
+    "name": "Provincia de Ais\u00e9n",
+    "region": 13
+  }
+},
+{
+  "model": "foji.province",
+  "pk": 43,
+  "fields": {
+    "code": "113",
+    "name": "Provincia Capit\u00e1n Prat",
+    "region": 13
+  }
+},
+{
+  "model": "foji.province",
+  "pk": 44,
+  "fields": {
+    "code": "114",
+    "name": "Provincia General Carrera",
+    "region": 13
+  }
+},
+{
+  "model": "foji.province",
+  "pk": 45,
+  "fields": {
+    "code": "121",
+    "name": "Provincia de Magallanes",
+    "region": 14
+  }
+},
+{
+  "model": "foji.province",
+  "pk": 46,
+  "fields": {
+    "code": "122",
+    "name": "Provincia Ant\u00e1rtica Chilena",
+    "region": 14
+  }
+},
+{
+  "model": "foji.province",
+  "pk": 47,
+  "fields": {
+    "code": "123",
+    "name": "Provincia Tierra del Fuego",
+    "region": 14
+  }
+},
+{
+  "model": "foji.province",
+  "pk": 48,
+  "fields": {
+    "code": "124",
+    "name": "Provincia \u00daltima Esperanza",
+    "region": 14
+  }
+},
+{
+  "model": "foji.province",
+  "pk": 49,
+  "fields": {
+    "code": "131",
+    "name": "Provincia de Santiago",
+    "region": 15
+  }
+},
+{
+  "model": "foji.province",
+  "pk": 50,
+  "fields": {
+    "code": "132",
+    "name": "Provincia Cordillera",
+    "region": 15
+  }
+},
+{
+  "model": "foji.province",
+  "pk": 51,
+  "fields": {
+    "code": "133",
+    "name": "Provincia de Chacabuco",
+    "region": 15
+  }
+},
+{
+  "model": "foji.province",
+  "pk": 52,
+  "fields": {
+    "code": "134",
+    "name": "Provincia de Maipo",
+    "region": 15
+  }
+},
+{
+  "model": "foji.province",
+  "pk": 53,
+  "fields": {
+    "code": "135",
+    "name": "Provincia de Melipilla",
+    "region": 15
+  }
+},
+{
+  "model": "foji.province",
+  "pk": 54,
+  "fields": {
+    "code": "136",
+    "name": "Provincia de Talagante",
+    "region": 15
+  }
+},
+{
+  "model": "foji.province",
+  "pk": 55,
+  "fields": {
+    "code": "161",
+    "name": "Provincia de Diguill\u00edn",
+    "region": 16
+  }
+},
+{
+  "model": "foji.province",
+  "pk": 56,
+  "fields": {
+    "code": "162",
+    "name": "Provincia de Itata",
+    "region": 16
+  }
+},
+{
+  "model": "foji.province",
+  "pk": 57,
+  "fields": {
+    "code": "163",
+    "name": "Provincia de Punilla",
+    "region": 16
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 1,
+  "fields": {
+    "code": "15101",
+    "name": "Arica",
+    "province": 1
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 2,
+  "fields": {
+    "code": "15102",
+    "name": "Camarones",
+    "province": 1
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 3,
+  "fields": {
+    "code": "15201",
+    "name": "Putre",
+    "province": 2
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 4,
+  "fields": {
+    "code": "15202",
+    "name": "General Lagos",
+    "province": 2
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 5,
+  "fields": {
+    "code": "01101",
+    "name": "Iquique",
+    "province": 3
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 6,
+  "fields": {
+    "code": "01107",
+    "name": "Alto Hospicio",
+    "province": 3
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 7,
+  "fields": {
+    "code": "01401",
+    "name": "Pozo Almonte",
+    "province": 4
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 8,
+  "fields": {
+    "code": "01402",
+    "name": "Cami\u00f1a",
+    "province": 4
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 9,
+  "fields": {
+    "code": "01403",
+    "name": "Colchane",
+    "province": 4
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 10,
+  "fields": {
+    "code": "01404",
+    "name": "Huara",
+    "province": 4
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 11,
+  "fields": {
+    "code": "01405",
+    "name": "Pica",
+    "province": 4
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 12,
+  "fields": {
+    "code": "02101",
+    "name": "Antofagasta",
+    "province": 5
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 13,
+  "fields": {
+    "code": "02102",
+    "name": "Mejillones",
+    "province": 5
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 14,
+  "fields": {
+    "code": "02103",
+    "name": "Sierra Gorda",
+    "province": 5
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 15,
+  "fields": {
+    "code": "02104",
+    "name": "Taltal",
+    "province": 5
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 16,
+  "fields": {
+    "code": "20201",
+    "name": "Calama",
+    "province": 6
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 17,
+  "fields": {
+    "code": "02202",
+    "name": "Ollag\u00fce",
+    "province": 6
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 18,
+  "fields": {
+    "code": "02203",
+    "name": "San Pedro de Atacama",
+    "province": 6
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 19,
+  "fields": {
+    "code": "02301",
+    "name": "Tocopilla",
+    "province": 7
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 20,
+  "fields": {
+    "code": "02302",
+    "name": "Mar\u00eda Elena",
+    "province": 7
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 21,
+  "fields": {
+    "code": "03101",
+    "name": "Copiap\u00f3",
+    "province": 8
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 22,
+  "fields": {
+    "code": "03102",
+    "name": "Caldera",
+    "province": 8
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 23,
+  "fields": {
+    "code": "03103",
+    "name": "Tierra Amarilla",
+    "province": 8
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 24,
+  "fields": {
+    "code": "03201",
+    "name": "Cha\u00f1aral",
+    "province": 9
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 25,
+  "fields": {
+    "code": "03202",
+    "name": "Diego de Almagro",
+    "province": 9
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 26,
+  "fields": {
+    "code": "03301",
+    "name": "Vallenar",
+    "province": 10
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 27,
+  "fields": {
+    "code": "03302",
+    "name": "Alto del Carmen",
+    "province": 10
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 28,
+  "fields": {
+    "code": "03303",
+    "name": "Freirina",
+    "province": 10
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 29,
+  "fields": {
+    "code": "03304",
+    "name": "Huasco",
+    "province": 10
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 30,
+  "fields": {
+    "code": "04101",
+    "name": "La Serena",
+    "province": 11
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 31,
+  "fields": {
+    "code": "04102",
+    "name": "Coquimbo",
+    "province": 11
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 32,
+  "fields": {
+    "code": "04103",
+    "name": "Andacollo",
+    "province": 11
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 33,
+  "fields": {
+    "code": "04104",
+    "name": "La Higuera",
+    "province": 11
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 34,
+  "fields": {
+    "code": "04105",
+    "name": "Paiguano",
+    "province": 11
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 35,
+  "fields": {
+    "code": "04106",
+    "name": "Vicu\u00f1a",
+    "province": 11
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 36,
+  "fields": {
+    "code": "04201",
+    "name": "Illapel",
+    "province": 12
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 37,
+  "fields": {
+    "code": "04202",
+    "name": "Canela",
+    "province": 12
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 38,
+  "fields": {
+    "code": "04203",
+    "name": "Los Vilos",
+    "province": 12
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 39,
+  "fields": {
+    "code": "04204",
+    "name": "Salamanca",
+    "province": 12
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 40,
+  "fields": {
+    "code": "04301",
+    "name": "Ovalle",
+    "province": 13
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 41,
+  "fields": {
+    "code": "04302",
+    "name": "Combarbal\u00e1",
+    "province": 13
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 42,
+  "fields": {
+    "code": "04303",
+    "name": "Monte Patria",
+    "province": 13
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 43,
+  "fields": {
+    "code": "04304",
+    "name": "Punitaqui",
+    "province": 13
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 44,
+  "fields": {
+    "code": "04305",
+    "name": "R\u00edo Hurtado",
+    "province": 13
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 45,
+  "fields": {
+    "code": "05101",
+    "name": "Valpara\u00edso",
+    "province": 14
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 46,
+  "fields": {
+    "code": "05102",
+    "name": "Casablanca",
+    "province": 14
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 47,
+  "fields": {
+    "code": "05103",
+    "name": "Conc\u00f3n",
+    "province": 14
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 48,
+  "fields": {
+    "code": "05104",
+    "name": "Juan Fern\u00e1ndez",
+    "province": 14
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 49,
+  "fields": {
+    "code": "05105",
+    "name": "Puchuncav\u00ed",
+    "province": 14
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 50,
+  "fields": {
+    "code": "05107",
+    "name": "Quintero",
+    "province": 14
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 51,
+  "fields": {
+    "code": "05109",
+    "name": "Vi\u00f1a del Mar",
+    "province": 14
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 52,
+  "fields": {
+    "code": "05201",
+    "name": "Isla de Pascua",
+    "province": 15
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 53,
+  "fields": {
+    "code": "05301",
+    "name": "Los Andes",
+    "province": 16
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 54,
+  "fields": {
+    "code": "05302",
+    "name": "Calle Larga",
+    "province": 16
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 55,
+  "fields": {
+    "code": "05303",
+    "name": "Rinconada",
+    "province": 16
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 56,
+  "fields": {
+    "code": "05304",
+    "name": "San Esteban",
+    "province": 16
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 57,
+  "fields": {
+    "code": "05401",
+    "name": "La Ligua",
+    "province": 17
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 58,
+  "fields": {
+    "code": "05402",
+    "name": "Cabildo",
+    "province": 17
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 59,
+  "fields": {
+    "code": "05403",
+    "name": "Papudo",
+    "province": 17
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 60,
+  "fields": {
+    "code": "05404",
+    "name": "Petorca",
+    "province": 17
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 61,
+  "fields": {
+    "code": "05405",
+    "name": "Zapallar",
+    "province": 17
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 62,
+  "fields": {
+    "code": "05501",
+    "name": "Quillota",
+    "province": 18
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 63,
+  "fields": {
+    "code": "05502",
+    "name": "Calera",
+    "province": 18
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 64,
+  "fields": {
+    "code": "05503",
+    "name": "Hijuelas",
+    "province": 18
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 65,
+  "fields": {
+    "code": "05504",
+    "name": "La Cruz",
+    "province": 18
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 66,
+  "fields": {
+    "code": "05506",
+    "name": "Nogales",
+    "province": 18
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 67,
+  "fields": {
+    "code": "05601",
+    "name": "San Antonio",
+    "province": 19
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 68,
+  "fields": {
+    "code": "05602",
+    "name": "Algarrobo",
+    "province": 19
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 69,
+  "fields": {
+    "code": "05603",
+    "name": "Cartagena",
+    "province": 19
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 70,
+  "fields": {
+    "code": "05604",
+    "name": "El Quisco",
+    "province": 19
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 71,
+  "fields": {
+    "code": "05605",
+    "name": "El Tabo",
+    "province": 19
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 72,
+  "fields": {
+    "code": "05606",
+    "name": "Santo Domingo",
+    "province": 19
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 73,
+  "fields": {
+    "code": "05701",
+    "name": "San Felipe",
+    "province": 20
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 74,
+  "fields": {
+    "code": "05702",
+    "name": "Catemu",
+    "province": 20
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 75,
+  "fields": {
+    "code": "05703",
+    "name": "Llaillay",
+    "province": 20
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 76,
+  "fields": {
+    "code": "05704",
+    "name": "Panquehue",
+    "province": 20
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 77,
+  "fields": {
+    "code": "05705",
+    "name": "Putaendo",
+    "province": 20
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 78,
+  "fields": {
+    "code": "05706",
+    "name": "Santa Mar\u00eda",
+    "province": 20
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 79,
+  "fields": {
+    "code": "05801",
+    "name": "Quilpu\u00e9",
+    "province": 21
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 80,
+  "fields": {
+    "code": "05802",
+    "name": "Limache",
+    "province": 21
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 81,
+  "fields": {
+    "code": "05803",
+    "name": "Olmu\u00e9",
+    "province": 21
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 82,
+  "fields": {
+    "code": "05804",
+    "name": "Villa Alemana",
+    "province": 21
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 83,
+  "fields": {
+    "code": "06601",
+    "name": "Rancagua",
+    "province": 22
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 84,
+  "fields": {
+    "code": "06102",
+    "name": "Codegua",
+    "province": 22
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 85,
+  "fields": {
+    "code": "06103",
+    "name": "Coinco",
+    "province": 22
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 86,
+  "fields": {
+    "code": "06104",
+    "name": "Coltauco",
+    "province": 22
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 87,
+  "fields": {
+    "code": "06105",
+    "name": "Do\u00f1ihue",
+    "province": 22
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 88,
+  "fields": {
+    "code": "06106",
+    "name": "Graneros",
+    "province": 22
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 89,
+  "fields": {
+    "code": "06107",
+    "name": "Las Cabras",
+    "province": 22
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 90,
+  "fields": {
+    "code": "06108",
+    "name": "Machal\u00ed",
+    "province": 22
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 91,
+  "fields": {
+    "code": "06109",
+    "name": "Malloa",
+    "province": 22
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 92,
+  "fields": {
+    "code": "06110",
+    "name": "Mostazal",
+    "province": 22
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 93,
+  "fields": {
+    "code": "06111",
+    "name": "Olivar",
+    "province": 22
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 94,
+  "fields": {
+    "code": "06112",
+    "name": "Peumo",
+    "province": 22
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 95,
+  "fields": {
+    "code": "06113",
+    "name": "Pichidegua",
+    "province": 22
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 96,
+  "fields": {
+    "code": "06114",
+    "name": "Quinta de Tilcoco",
+    "province": 22
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 97,
+  "fields": {
+    "code": "06115",
+    "name": "Rengo",
+    "province": 22
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 98,
+  "fields": {
+    "code": "06116",
+    "name": "Requinoa",
+    "province": 22
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 99,
+  "fields": {
+    "code": "06117",
+    "name": "San Vicente",
+    "province": 22
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 100,
+  "fields": {
+    "code": "06201",
+    "name": "Pichilemu",
+    "province": 23
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 101,
+  "fields": {
+    "code": "06202",
+    "name": "La Estrella",
+    "province": 23
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 102,
+  "fields": {
+    "code": "06203",
+    "name": "Litueche",
+    "province": 23
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 103,
+  "fields": {
+    "code": "06204",
+    "name": "Marchihue",
+    "province": 23
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 104,
+  "fields": {
+    "code": "06205",
+    "name": "Navidad",
+    "province": 23
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 105,
+  "fields": {
+    "code": "06206",
+    "name": "Paredones",
+    "province": 23
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 106,
+  "fields": {
+    "code": "06301",
+    "name": "San Fernando",
+    "province": 24
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 107,
+  "fields": {
+    "code": "06302",
+    "name": "Ch\u00e9pica",
+    "province": 24
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 108,
+  "fields": {
+    "code": "06303",
+    "name": "Chimbarongo",
+    "province": 24
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 109,
+  "fields": {
+    "code": "06304",
+    "name": "Lolol",
+    "province": 24
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 110,
+  "fields": {
+    "code": "06305",
+    "name": "Nancagua",
+    "province": 24
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 111,
+  "fields": {
+    "code": "06306",
+    "name": "Palmilla",
+    "province": 24
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 112,
+  "fields": {
+    "code": "06307",
+    "name": "Peralillo",
+    "province": 24
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 113,
+  "fields": {
+    "code": "06308",
+    "name": "Placilla",
+    "province": 24
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 114,
+  "fields": {
+    "code": "06309",
+    "name": "Pumanque",
+    "province": 24
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 115,
+  "fields": {
+    "code": "06310",
+    "name": "Santa Cruz",
+    "province": 24
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 116,
+  "fields": {
+    "code": "07101",
+    "name": "Talca",
+    "province": 25
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 117,
+  "fields": {
+    "code": "07102",
+    "name": "Constituci\u00f3n",
+    "province": 25
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 118,
+  "fields": {
+    "code": "07103",
+    "name": "Curepto",
+    "province": 25
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 119,
+  "fields": {
+    "code": "07104",
+    "name": "Empedrado",
+    "province": 25
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 120,
+  "fields": {
+    "code": "07105",
+    "name": "Maule",
+    "province": 25
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 121,
+  "fields": {
+    "code": "07106",
+    "name": "Pelarco",
+    "province": 25
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 122,
+  "fields": {
+    "code": "07107",
+    "name": "Pencahue",
+    "province": 25
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 123,
+  "fields": {
+    "code": "07108",
+    "name": "R\u00edo Claro",
+    "province": 25
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 124,
+  "fields": {
+    "code": "07109",
+    "name": "San Clemente",
+    "province": 25
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 125,
+  "fields": {
+    "code": "07110",
+    "name": "San Rafael",
+    "province": 25
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 126,
+  "fields": {
+    "code": "07201",
+    "name": "Cauquenes",
+    "province": 26
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 127,
+  "fields": {
+    "code": "07202",
+    "name": "Chanco",
+    "province": 26
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 128,
+  "fields": {
+    "code": "07203",
+    "name": "Pelluhue",
+    "province": 26
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 129,
+  "fields": {
+    "code": "07301",
+    "name": "Curic\u00f3",
+    "province": 27
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 130,
+  "fields": {
+    "code": "07302",
+    "name": "Huala\u00f1\u00e9",
+    "province": 27
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 131,
+  "fields": {
+    "code": "07303",
+    "name": "Licant\u00e9n",
+    "province": 27
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 132,
+  "fields": {
+    "code": "07304",
+    "name": "Molina",
+    "province": 27
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 133,
+  "fields": {
+    "code": "07305",
+    "name": "Rauco",
+    "province": 27
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 134,
+  "fields": {
+    "code": "07306",
+    "name": "Romeral",
+    "province": 27
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 135,
+  "fields": {
+    "code": "07307",
+    "name": "Sagrada Familia",
+    "province": 27
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 136,
+  "fields": {
+    "code": "07308",
+    "name": "Teno",
+    "province": 27
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 137,
+  "fields": {
+    "code": "07309",
+    "name": "Vichuqu\u00e9n",
+    "province": 27
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 138,
+  "fields": {
+    "code": "07401",
+    "name": "Linares",
+    "province": 28
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 139,
+  "fields": {
+    "code": "07402",
+    "name": "Colb\u00fan",
+    "province": 28
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 140,
+  "fields": {
+    "code": "07403",
+    "name": "Longav\u00ed",
+    "province": 28
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 141,
+  "fields": {
+    "code": "07404",
+    "name": "Parral",
+    "province": 28
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 142,
+  "fields": {
+    "code": "07405",
+    "name": "Retiro",
+    "province": 28
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 143,
+  "fields": {
+    "code": "07406",
+    "name": "San Javier",
+    "province": 28
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 144,
+  "fields": {
+    "code": "07407",
+    "name": "Villa Alegre",
+    "province": 28
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 145,
+  "fields": {
+    "code": "07408",
+    "name": "Yerbas Buenas",
+    "province": 28
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 146,
+  "fields": {
+    "code": "08101",
+    "name": "Concepci\u00f3n",
+    "province": 29
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 147,
+  "fields": {
+    "code": "08102",
+    "name": "Coronel",
+    "province": 29
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 148,
+  "fields": {
+    "code": "08103",
+    "name": "Chiguayante",
+    "province": 29
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 149,
+  "fields": {
+    "code": "08104",
+    "name": "Florida",
+    "province": 29
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 150,
+  "fields": {
+    "code": "08105",
+    "name": "Hualqui",
+    "province": 29
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 151,
+  "fields": {
+    "code": "08106",
+    "name": "Lota",
+    "province": 29
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 152,
+  "fields": {
+    "code": "08107",
+    "name": "Penco",
+    "province": 29
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 153,
+  "fields": {
+    "code": "08108",
+    "name": "San Pedro de la Paz",
+    "province": 29
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 154,
+  "fields": {
+    "code": "08109",
+    "name": "Santa Juana",
+    "province": 29
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 155,
+  "fields": {
+    "code": "08110",
+    "name": "Talcahuano",
+    "province": 29
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 156,
+  "fields": {
+    "code": "08111",
+    "name": "Tom\u00e9",
+    "province": 29
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 157,
+  "fields": {
+    "code": "08112",
+    "name": "Hualp\u00e9n",
+    "province": 29
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 158,
+  "fields": {
+    "code": "08201",
+    "name": "Lebu",
+    "province": 30
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 159,
+  "fields": {
+    "code": "08202",
+    "name": "Arauco",
+    "province": 30
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 160,
+  "fields": {
+    "code": "08203",
+    "name": "Ca\u00f1ete",
+    "province": 30
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 161,
+  "fields": {
+    "code": "08204",
+    "name": "Contulmo",
+    "province": 30
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 162,
+  "fields": {
+    "code": "08205",
+    "name": "Curanilahue",
+    "province": 30
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 163,
+  "fields": {
+    "code": "08206",
+    "name": "Los \u00c1lamos",
+    "province": 30
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 164,
+  "fields": {
+    "code": "08207",
+    "name": "Tir\u00faa",
+    "province": 30
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 165,
+  "fields": {
+    "code": "08301",
+    "name": "Los \u00c1ngeles",
+    "province": 31
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 166,
+  "fields": {
+    "code": "08302",
+    "name": "Antuco",
+    "province": 31
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 167,
+  "fields": {
+    "code": "08303",
+    "name": "Cabrero",
+    "province": 31
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 168,
+  "fields": {
+    "code": "08304",
+    "name": "Laja",
+    "province": 31
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 169,
+  "fields": {
+    "code": "08305",
+    "name": "Mulch\u00e9n",
+    "province": 31
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 170,
+  "fields": {
+    "code": "08306",
+    "name": "Nacimiento",
+    "province": 31
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 171,
+  "fields": {
+    "code": "08307",
+    "name": "Negrete",
+    "province": 31
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 172,
+  "fields": {
+    "code": "08308",
+    "name": "Quilaco",
+    "province": 31
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 173,
+  "fields": {
+    "code": "08309",
+    "name": "Quilleco",
+    "province": 31
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 174,
+  "fields": {
+    "code": "08310",
+    "name": "San Rosendo",
+    "province": 31
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 175,
+  "fields": {
+    "code": "08311",
+    "name": "Santa B\u00e1rbara",
+    "province": 31
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 176,
+  "fields": {
+    "code": "08312",
+    "name": "Tucapel",
+    "province": 31
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 177,
+  "fields": {
+    "code": "08313",
+    "name": "Yumbel",
+    "province": 31
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 178,
+  "fields": {
+    "code": "08314",
+    "name": "Alto Biob\u00edo",
+    "province": 31
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 179,
+  "fields": {
+    "code": "16101",
+    "name": "Chill\u00e1n",
+    "province": 55
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 180,
+  "fields": {
+    "code": "16102",
+    "name": "Bulnes",
+    "province": 55
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 181,
+  "fields": {
+    "code": "16202",
+    "name": "Cobquecura",
+    "province": 56
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 182,
+  "fields": {
+    "code": "16203",
+    "name": "Coelemu",
+    "province": 56
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 183,
+  "fields": {
+    "code": "16302",
+    "name": "Coihueco",
+    "province": 57
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 184,
+  "fields": {
+    "code": "16103",
+    "name": "Chill\u00e1n Viejo",
+    "province": 55
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 185,
+  "fields": {
+    "code": "16104",
+    "name": "El Carmen",
+    "province": 55
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 186,
+  "fields": {
+    "code": "16204",
+    "name": "Ninhue",
+    "province": 56
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 187,
+  "fields": {
+    "code": "16303",
+    "name": "\u00d1iqu\u00e9n",
+    "province": 57
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 188,
+  "fields": {
+    "code": "16105",
+    "name": "Pemuco",
+    "province": 55
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 189,
+  "fields": {
+    "code": "16106",
+    "name": "Pinto",
+    "province": 55
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 190,
+  "fields": {
+    "code": "16205",
+    "name": "Portezuelo",
+    "province": 56
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 191,
+  "fields": {
+    "code": "16107",
+    "name": "Quill\u00f3n",
+    "province": 55
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 192,
+  "fields": {
+    "code": "16201",
+    "name": "Quirihue",
+    "province": 56
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 193,
+  "fields": {
+    "code": "16206",
+    "name": "R\u00e1nquil",
+    "province": 56
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 194,
+  "fields": {
+    "code": "16301",
+    "name": "San Carlos",
+    "province": 57
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 195,
+  "fields": {
+    "code": "16304",
+    "name": "San Fabi\u00e1n",
+    "province": 57
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 196,
+  "fields": {
+    "code": "16108",
+    "name": "San Ignacio",
+    "province": 55
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 197,
+  "fields": {
+    "code": "16305",
+    "name": "San Nicol\u00e1s",
+    "province": 57
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 198,
+  "fields": {
+    "code": "16207",
+    "name": "Treguaco",
+    "province": 56
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 199,
+  "fields": {
+    "code": "16109",
+    "name": "Yungay",
+    "province": 55
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 200,
+  "fields": {
+    "code": "09101",
+    "name": "Temuco",
+    "province": 33
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 201,
+  "fields": {
+    "code": "09102",
+    "name": "Carahue",
+    "province": 33
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 202,
+  "fields": {
+    "code": "09103",
+    "name": "Cunco",
+    "province": 33
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 203,
+  "fields": {
+    "code": "09104",
+    "name": "Curarrehue",
+    "province": 33
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 204,
+  "fields": {
+    "code": "09105",
+    "name": "Freire",
+    "province": 33
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 205,
+  "fields": {
+    "code": "09106",
+    "name": "Galvarino",
+    "province": 33
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 206,
+  "fields": {
+    "code": "09107",
+    "name": "Gorbea",
+    "province": 33
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 207,
+  "fields": {
+    "code": "09108",
+    "name": "Lautaro",
+    "province": 33
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 208,
+  "fields": {
+    "code": "09109",
+    "name": "Loncoche",
+    "province": 33
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 209,
+  "fields": {
+    "code": "09110",
+    "name": "Melipeuco",
+    "province": 33
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 210,
+  "fields": {
+    "code": "09111",
+    "name": "Nueva Imperial",
+    "province": 33
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 211,
+  "fields": {
+    "code": "09112",
+    "name": "Padre las Casas",
+    "province": 33
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 212,
+  "fields": {
+    "code": "09113",
+    "name": "Perquenco",
+    "province": 33
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 213,
+  "fields": {
+    "code": "09114",
+    "name": "Pitrufqu\u00e9n",
+    "province": 33
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 214,
+  "fields": {
+    "code": "09115",
+    "name": "Puc\u00f3n",
+    "province": 33
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 215,
+  "fields": {
+    "code": "09116",
+    "name": "Saavedra",
+    "province": 33
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 216,
+  "fields": {
+    "code": "09117",
+    "name": "Teodoro Schmidt",
+    "province": 33
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 217,
+  "fields": {
+    "code": "09118",
+    "name": "Tolt\u00e9n",
+    "province": 33
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 218,
+  "fields": {
+    "code": "09119",
+    "name": "Vilc\u00fan",
+    "province": 33
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 219,
+  "fields": {
+    "code": "09120",
+    "name": "Villarrica",
+    "province": 33
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 220,
+  "fields": {
+    "code": "09121",
+    "name": "Cholchol",
+    "province": 33
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 221,
+  "fields": {
+    "code": "09201",
+    "name": "Angol",
+    "province": 34
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 222,
+  "fields": {
+    "code": "09202",
+    "name": "Cullipulli",
+    "province": 34
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 223,
+  "fields": {
+    "code": "09203",
+    "name": "Curacaut\u00edn",
+    "province": 34
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 224,
+  "fields": {
+    "code": "09204",
+    "name": "Ercilla",
+    "province": 34
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 225,
+  "fields": {
+    "code": "09205",
+    "name": "Lonquimay",
+    "province": 34
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 226,
+  "fields": {
+    "code": "09206",
+    "name": "Los Sauces",
+    "province": 34
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 227,
+  "fields": {
+    "code": "09207",
+    "name": "Lumaco",
+    "province": 34
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 228,
+  "fields": {
+    "code": "09208",
+    "name": "Pur\u00e9n",
+    "province": 34
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 229,
+  "fields": {
+    "code": "09209",
+    "name": "Renaico",
+    "province": 34
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 230,
+  "fields": {
+    "code": "09210",
+    "name": "Traigu\u00e9n",
+    "province": 34
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 231,
+  "fields": {
+    "code": "09211",
+    "name": "Victoria",
+    "province": 34
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 232,
+  "fields": {
+    "code": "14101",
+    "name": "Valdivia",
+    "province": 35
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 233,
+  "fields": {
+    "code": "14102",
+    "name": "Corral",
+    "province": 35
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 234,
+  "fields": {
+    "code": "14103",
+    "name": "Lanco",
+    "province": 35
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 235,
+  "fields": {
+    "code": "14104",
+    "name": "Los Lagos",
+    "province": 35
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 236,
+  "fields": {
+    "code": "14105",
+    "name": "M\u00e1fil",
+    "province": 35
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 237,
+  "fields": {
+    "code": "14106",
+    "name": "Mariquina",
+    "province": 35
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 238,
+  "fields": {
+    "code": "14107",
+    "name": "Paillaco",
+    "province": 35
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 239,
+  "fields": {
+    "code": "14108",
+    "name": "Panguipulli",
+    "province": 35
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 240,
+  "fields": {
+    "code": "14201",
+    "name": "La Uni\u00f3n",
+    "province": 36
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 241,
+  "fields": {
+    "code": "14202",
+    "name": "Futrono",
+    "province": 36
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 242,
+  "fields": {
+    "code": "14203",
+    "name": "Lago Ranco",
+    "province": 36
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 243,
+  "fields": {
+    "code": "14204",
+    "name": "R\u00edo Bueno",
+    "province": 36
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 244,
+  "fields": {
+    "code": "10101",
+    "name": "Puerto Montt",
+    "province": 37
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 245,
+  "fields": {
+    "code": "10102",
+    "name": "Calbuco",
+    "province": 37
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 246,
+  "fields": {
+    "code": "10103",
+    "name": "Cocham\u00f3",
+    "province": 37
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 247,
+  "fields": {
+    "code": "10104",
+    "name": "Fresia",
+    "province": 37
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 248,
+  "fields": {
+    "code": "10105",
+    "name": "Frutillar",
+    "province": 37
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 249,
+  "fields": {
+    "code": "10106",
+    "name": "Los Muermos",
+    "province": 37
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 250,
+  "fields": {
+    "code": "10107",
+    "name": "Llanquihue",
+    "province": 37
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 251,
+  "fields": {
+    "code": "10108",
+    "name": "Maull\u00edn",
+    "province": 37
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 252,
+  "fields": {
+    "code": "10109",
+    "name": "Puerto Varas",
+    "province": 37
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 253,
+  "fields": {
+    "code": "10201",
+    "name": "Castro",
+    "province": 38
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 254,
+  "fields": {
+    "code": "10202",
+    "name": "Ancud",
+    "province": 38
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 255,
+  "fields": {
+    "code": "10203",
+    "name": "Chonchi",
+    "province": 38
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 256,
+  "fields": {
+    "code": "10204",
+    "name": "Curaco de V\u00e9lez",
+    "province": 38
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 257,
+  "fields": {
+    "code": "10205",
+    "name": "Delcahue",
+    "province": 38
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 258,
+  "fields": {
+    "code": "10206",
+    "name": "Puqueld\u00f3n",
+    "province": 38
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 259,
+  "fields": {
+    "code": "10207",
+    "name": "Queil\u00e9n",
+    "province": 38
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 260,
+  "fields": {
+    "code": "10208",
+    "name": "Quell\u00f3n",
+    "province": 38
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 261,
+  "fields": {
+    "code": "10209",
+    "name": "Quemchi",
+    "province": 38
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 262,
+  "fields": {
+    "code": "10210",
+    "name": "Quinchao",
+    "province": 38
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 263,
+  "fields": {
+    "code": "10301",
+    "name": "Osorno",
+    "province": 39
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 264,
+  "fields": {
+    "code": "10302",
+    "name": "Puerto Octay",
+    "province": 39
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 265,
+  "fields": {
+    "code": "10303",
+    "name": "Purranque",
+    "province": 39
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 266,
+  "fields": {
+    "code": "10304",
+    "name": "Puyehue",
+    "province": 39
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 267,
+  "fields": {
+    "code": "10305",
+    "name": "R\u00edo Negro",
+    "province": 39
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 268,
+  "fields": {
+    "code": "10306",
+    "name": "San Juan de la Costa",
+    "province": 39
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 269,
+  "fields": {
+    "code": "10307",
+    "name": "San Pablo",
+    "province": 39
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 270,
+  "fields": {
+    "code": "10401",
+    "name": "Chait\u00e9n",
+    "province": 40
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 271,
+  "fields": {
+    "code": "10402",
+    "name": "Futaleuf\u00fa",
+    "province": 40
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 272,
+  "fields": {
+    "code": "10403",
+    "name": "Hualaihu\u00e9",
+    "province": 40
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 273,
+  "fields": {
+    "code": "10404",
+    "name": "Palena",
+    "province": 40
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 274,
+  "fields": {
+    "code": "11101",
+    "name": "Coihaique",
+    "province": 41
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 275,
+  "fields": {
+    "code": "11102",
+    "name": "Lago Verde",
+    "province": 41
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 276,
+  "fields": {
+    "code": "11201",
+    "name": "Ais\u00e9n",
+    "province": 42
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 277,
+  "fields": {
+    "code": "11202",
+    "name": "Cisnes",
+    "province": 42
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 278,
+  "fields": {
+    "code": "11203",
+    "name": "Guaitecas",
+    "province": 42
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 279,
+  "fields": {
+    "code": "11301",
+    "name": "Cochrane",
+    "province": 43
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 280,
+  "fields": {
+    "code": "11302",
+    "name": "O\u2019Higgins",
+    "province": 43
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 281,
+  "fields": {
+    "code": "11303",
+    "name": "Tortel",
+    "province": 43
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 282,
+  "fields": {
+    "code": "11401",
+    "name": "Chile Chico",
+    "province": 44
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 283,
+  "fields": {
+    "code": "11402",
+    "name": "R\u00edo Ib\u00e1\u00f1ez",
+    "province": 44
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 284,
+  "fields": {
+    "code": "12101",
+    "name": "Punta Arenas",
+    "province": 45
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 285,
+  "fields": {
+    "code": "12102",
+    "name": "Laguna Blanca",
+    "province": 45
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 286,
+  "fields": {
+    "code": "12103",
+    "name": "R\u00edo Verde",
+    "province": 45
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 287,
+  "fields": {
+    "code": "12104",
+    "name": "San Gregorio",
+    "province": 45
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 288,
+  "fields": {
+    "code": "12201",
+    "name": "Cabo de Hornos",
+    "province": 46
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 289,
+  "fields": {
+    "code": "12202",
+    "name": "Ant\u00e1rtica",
+    "province": 46
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 290,
+  "fields": {
+    "code": "12301",
+    "name": "Porvenir",
+    "province": 47
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 291,
+  "fields": {
+    "code": "12302",
+    "name": "Primavera",
+    "province": 47
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 292,
+  "fields": {
+    "code": "12303",
+    "name": "Timaukel",
+    "province": 47
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 293,
+  "fields": {
+    "code": "12401",
+    "name": "Natales",
+    "province": 48
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 294,
+  "fields": {
+    "code": "12402",
+    "name": "Torres del Paine",
+    "province": 48
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 295,
+  "fields": {
+    "code": "13101",
+    "name": "Santiago",
+    "province": 49
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 296,
+  "fields": {
+    "code": "13102",
+    "name": "Cerrillos",
+    "province": 49
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 297,
+  "fields": {
+    "code": "13103",
+    "name": "Cerro Navia",
+    "province": 49
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 298,
+  "fields": {
+    "code": "13104",
+    "name": "Conchal\u00ed",
+    "province": 49
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 299,
+  "fields": {
+    "code": "13105",
+    "name": "El Bosque",
+    "province": 49
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 300,
+  "fields": {
+    "code": "13106",
+    "name": "Estaci\u00f3n Central",
+    "province": 49
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 301,
+  "fields": {
+    "code": "13107",
+    "name": "Huechuraba",
+    "province": 49
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 302,
+  "fields": {
+    "code": "13108",
+    "name": "Independencia",
+    "province": 49
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 303,
+  "fields": {
+    "code": "13109",
+    "name": "La Cisterna",
+    "province": 49
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 304,
+  "fields": {
+    "code": "13110",
+    "name": "La Florida",
+    "province": 49
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 305,
+  "fields": {
+    "code": "13111",
+    "name": "La Granja",
+    "province": 49
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 306,
+  "fields": {
+    "code": "13112",
+    "name": "La Pintana",
+    "province": 49
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 307,
+  "fields": {
+    "code": "13113",
+    "name": "La Reina",
+    "province": 49
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 308,
+  "fields": {
+    "code": "13114",
+    "name": "Las Condes",
+    "province": 49
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 309,
+  "fields": {
+    "code": "13115",
+    "name": "Lo Barnechea",
+    "province": 49
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 310,
+  "fields": {
+    "code": "13116",
+    "name": "Lo Espejo",
+    "province": 49
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 311,
+  "fields": {
+    "code": "13117",
+    "name": "Lo Prado",
+    "province": 49
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 312,
+  "fields": {
+    "code": "13118",
+    "name": "Macul",
+    "province": 49
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 313,
+  "fields": {
+    "code": "13119",
+    "name": "Maip\u00fa",
+    "province": 49
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 314,
+  "fields": {
+    "code": "13120",
+    "name": "\u00d1u\u00f1oa",
+    "province": 49
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 315,
+  "fields": {
+    "code": "13121",
+    "name": "Pedro Aguirre Cerda",
+    "province": 49
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 316,
+  "fields": {
+    "code": "13122",
+    "name": "Pe\u00f1alol\u00e9n",
+    "province": 49
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 317,
+  "fields": {
+    "code": "13123",
+    "name": "Providencia",
+    "province": 49
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 318,
+  "fields": {
+    "code": "13124",
+    "name": "Pudahuel",
+    "province": 49
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 319,
+  "fields": {
+    "code": "13125",
+    "name": "Quilicura",
+    "province": 49
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 320,
+  "fields": {
+    "code": "13126",
+    "name": "Quinta Normal",
+    "province": 49
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 321,
+  "fields": {
+    "code": "13127",
+    "name": "Recoleta",
+    "province": 49
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 322,
+  "fields": {
+    "code": "13128",
+    "name": "Renca",
+    "province": 49
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 323,
+  "fields": {
+    "code": "13129",
+    "name": "San Joaqu\u00edn",
+    "province": 49
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 324,
+  "fields": {
+    "code": "13130",
+    "name": "San Miguel",
+    "province": 49
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 325,
+  "fields": {
+    "code": "13131",
+    "name": "San Ram\u00f3n",
+    "province": 49
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 326,
+  "fields": {
+    "code": "13132",
+    "name": "Vitacura",
+    "province": 49
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 327,
+  "fields": {
+    "code": "13201",
+    "name": "Puente Alto",
+    "province": 50
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 328,
+  "fields": {
+    "code": "13202",
+    "name": "Pirque",
+    "province": 50
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 329,
+  "fields": {
+    "code": "13203",
+    "name": "San Jos\u00e9 de Maipo",
+    "province": 50
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 330,
+  "fields": {
+    "code": "13301",
+    "name": "Colina",
+    "province": 51
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 331,
+  "fields": {
+    "code": "13302",
+    "name": "Lampa",
+    "province": 51
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 332,
+  "fields": {
+    "code": "13303",
+    "name": "Tiltil",
+    "province": 51
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 333,
+  "fields": {
+    "code": "13401",
+    "name": "San Bernardo",
+    "province": 52
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 334,
+  "fields": {
+    "code": "13402",
+    "name": "Buin",
+    "province": 52
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 335,
+  "fields": {
+    "code": "13403",
+    "name": "Calera de Tango",
+    "province": 52
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 336,
+  "fields": {
+    "code": "13404",
+    "name": "Paine",
+    "province": 52
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 337,
+  "fields": {
+    "code": "13501",
+    "name": "Melipilla",
+    "province": 53
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 338,
+  "fields": {
+    "code": "13502",
+    "name": "Alhu\u00e9",
+    "province": 53
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 339,
+  "fields": {
+    "code": "13503",
+    "name": "Curacav\u00ed",
+    "province": 53
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 340,
+  "fields": {
+    "code": "13504",
+    "name": "Mar\u00eda Pinto",
+    "province": 53
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 341,
+  "fields": {
+    "code": "13505",
+    "name": "San Pedro",
+    "province": 53
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 342,
+  "fields": {
+    "code": "13601",
+    "name": "Talagante",
+    "province": 54
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 343,
+  "fields": {
+    "code": "13602",
+    "name": "El Monte",
+    "province": 54
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 344,
+  "fields": {
+    "code": "13603",
+    "name": "Isla de Maipo",
+    "province": 54
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 345,
+  "fields": {
+    "code": "13604",
+    "name": "Padre Hurtado",
+    "province": 54
+  }
+},
+{
+  "model": "foji.area",
+  "pk": 346,
+  "fields": {
+    "code": "13605",
+    "name": "Pe\u00f1aflor",
+    "province": 54
+  }
+}
+]

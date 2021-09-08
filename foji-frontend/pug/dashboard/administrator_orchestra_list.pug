@@ -1,0 +1,12 @@
+extends ../base
+
+
+block title
+  | FOJI | Lista de Orquestas
+
+block body
+  .wrapper(aria-page="admin-orchestra-list") 
+    include ../navbar
+    include ../navigation
+    .container 
+      #admin-orchestra-list(data-can-add='{{ can_add }}') 

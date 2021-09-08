@@ -1,0 +1,34 @@
+.orq-photo {
+    background-color: #dedede;
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 0.4em;
+    border: 1px solid #dddddd;
+    background-repeat: no-repeat;
+    background-size: calc(100% - 1.4em);
+    background-position: center;
+}
+.orq-photo .camera-icon {
+    width: 13em;
+    height: 13em;
+    filter: invert(100);
+    background-size: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: brightness(0.7);
+}
+
+@media (max-width: 1200px){
+	.orq-photo .camera-icon{
+		width:10em;
+		height:10em;
+	}
+}
+
+@media (max-width: 768px){
+	.orq-photo .camera-icon{
+		width:13em;
+		height:13em;
+	}	
+
+}

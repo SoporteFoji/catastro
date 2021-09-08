@@ -1,0 +1,14 @@
+extends ../base
+block title
+  | FOJI | Integrantes
+
+block body
+  .wrapper(aria-page="excel_upload")
+    include ../navbar
+    include ../navigation
+    .container
+      .alert.alert-primary.mt-3.mb-3.text-center(role="alert") 
+        h4 En esta sección podrás subir los integrantes a través del sistema Excel o directamente en los formularios dispuestos abajo.
+      #members-upload.mt-3(data-orchestra-id='{{ object.id }}')
+      
+

@@ -1,0 +1,49 @@
+version: '3'
+
+services:
+  web:
+    image: catastro:v8
+    ports:
+      - '8000:8000'
+    depends_on:
+      - db
+    volumes:
+      - ./media/:/app/foji_project/media
+      - ./foji_project/foji/static/:/app/foji_project/foji/static/
+      - ./foji_project/foji/templates/:/app/foji_project/foji/templates
+      - ./foji_project/foji/migrations/:/app/foji_project/foji/migrations
+  db:
+    image: postgres:9-alpine
+    environment:
+      - POSTGRES_DB=foji
+      - POSTGRES_USER=foji
+      - POSTGRES_PASSWORD=foji
+    volumes: 
+      - db-data:/var/lib/postgresql/data
+    ports:
+      - '5432:5432'
+
+  redis:
+    image: redis:alpine
+
+  http:
+    image: foji:nginx
+    ports: 
+      - '80:80'
+    depends_on:
+      - web
+    volumes: 
+      - ./media:/app/media
+      - ./foji_project/foji/static/:/static
+
+  celery:
+    image: foji:celery2
+    command: celery -A foji_project worker -l INFO ; sysctl -w net.ipv6.conf.all.forwarding=1
+    depends_on:
+      - redis
+
+volumes:
+  db-data:
+    external: true
+  media-data:
+    external: true

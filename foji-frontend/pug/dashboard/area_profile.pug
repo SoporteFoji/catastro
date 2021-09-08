@@ -1,0 +1,15 @@
+extends ../base
+
+block title
+  | FOJI | Mantenedor Area
+
+block body
+  .wrapper(aria-page="area_profile")
+    include ../navbar
+    include ../navigation
+    #area-profile(data-area-id='{{ object.id }}' data-can-edit='{{ can_edit }}')
+    | {% if request.user.administrator %}
+    #user-type(data-usertype="administrator")
+    | {% else %}
+    #user-type(data-usertype="visitor")
+    | {% endif %}

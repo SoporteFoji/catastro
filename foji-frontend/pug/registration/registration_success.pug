@@ -1,0 +1,20 @@
+extends ../base
+
+
+block title
+  | FOJI | Registro Usuario
+
+block body
+  .wrapper(aria-page="registration_seccess")
+    include ../navbar
+    .float-content.catastro-title.mt-4
+      h4 Formulario
+      h1 Catastro foji
+      .message.card.p-3.mt-4.d-inline-block.ml-2.mr-2
+        .success
+          .icon.success-icon
+          span El registro de usuario ha terminado con éxito.
+      .mt-2.pl-2.pr-2
+        span.d-block.font-weight-bold #[strong Hemos enviado un email de validación a tu correo.] Revísalo y sigue las instrucciones para activar tu cuenta.
+        span.d-block.text-muted Si no encuentras nuestro correo, recuerda revisar tu cassilla "spam".
+

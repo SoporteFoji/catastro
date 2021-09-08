@@ -1,0 +1,23 @@
+.catastro-title{
+	padding-bottom: 1.5em;
+}
+.catastro-title h4{
+	color:$blue;
+}
+.catastro-title p{
+	font-size:1.1em;
+	color:#646464
+	;max-width:42em;
+}
+.invalidFeedback{
+  color: $danger;
+}
+@media (max-width: 768px) {
+  	.box-content .border-left{
+  		border-left: 0 !important;
+      border-top: 1px solid #dee2e6;
+  	}
+    .box-content .shadow-left{
+      background: transparent;
+    }
+}

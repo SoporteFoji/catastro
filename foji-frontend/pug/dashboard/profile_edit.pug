@@ -1,0 +1,95 @@
+extends ../base
+
+block title
+  | FOJI | Editar Perfil
+
+block body
+  .wrapper(aria-page="profile_edit")
+    include ../navbar
+    include ../navigation
+    .full-box.box-form.container
+      form#coordinator-form(method='POST')
+        | {% csrf_token %}
+        .box-title
+          h4 Editar Perfil
+        .box-content.container
+          .row
+            .col-md-6.pt3.pb-3.p-sm-5
+              .form-row
+                .form-group.col-sm-6
+                  label(for="coordinator-first_name") Nombre:
+                  input#coordinator-first_name.form-control(
+                    name="coordinator-first_name"
+                    value='{{ personal_information_form.first_name.value }}'
+                    type="text"
+                    placeholder="Escribe tu nombre"
+                    required
+                  )
+                  .invalidFeedback
+                    | {{ personal_information_form.first_name.errors.0 }}
+                .form-group.col-sm-6
+                  label(for="coordinator-last_name") Apellido:
+                  input#coordinator-last_name.form-control(
+                    name="coordinator-last_name"
+                    value='{{ personal_information_form.last_name.value }}'
+                    type="text"
+                    placeholder="Escribe tu apellido"
+                    required
+                  )
+                  .invalidFeedback
+                    | {{ personal_information_form.last_name.errors.0 }}
+              .form-group
+                label(for="coordinator-social_id") RUT:
+                input#coordinator-social_id.form-control(
+                  name="coordinator-social_id"
+                  value="{{ personal_information_form.social_id.value }}"
+                  type="text"
+                  placeholder="Ej: 15.642.495-8"
+                  required
+                )
+                .invalidFeedback
+                    | {{ personal_information_form.social_id.errors.0 }}
+              .form-group
+                label(for="coordinator-phone_number_mobile") Teléfono:
+                input#coordinator-phone_number_mobile.form-control(
+                  name="coordinator-phone_number_mobile"
+                  value="{{ personal_information_form.phone_number_mobile.value }}"
+                  type="text"
+                  placeholder="Ej: 962129365"
+                  required
+                )
+                .invalidFeedback
+                    | {{ personal_information_form.phone_number_mobile.errors.0 }}
+            .col-md-6.pt-3.pb-3.p-sm-5.border-left
+              .form-group
+                label(for="role") Cargo:
+                input#role.form-control(
+                  name="role"
+                  value="{{ coordinator_form.role.value }}"
+                  type="text"
+                  placeholder="Tu cargo en la orquesta"
+                  required
+                )
+                .invalidFeedback
+              .form-group
+                label(for="email") Email:
+                input#email.form-control(
+                  name="email"
+                  value="{{ user_form.email.value }}"
+                  type="email"
+                  placeholder="Tu email"
+                )
+                .invalidFeedback
+                    | {{ user_form.email.errors.0 }}
+              .form-group
+                label Fecha de nacimiento:
+                #datepicker-input(data-date="{{ personal_information_form.birth_date.value }}")
+                .invalidFeedback
+                  | {{ personal_information_form.birth_date.errors.0 }} 
+        .bottom-box.text-right
+          button.btn.btn-primary(type='submit') Guardar
+    .float-content
+      p.text-primary
+        .icon.lock-icon.mr-2
+        a(href="/cambiar-clave/") Cambiar contraseña
+

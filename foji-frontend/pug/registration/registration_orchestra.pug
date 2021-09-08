@@ -1,0 +1,69 @@
+extends ../base
+
+
+block title
+  | FOJI | Registro Orquesta
+
+block body
+  .wrapper(aria-page="registration_orchestra") 
+    include ../navbar
+    include ../navigation
+    .full-box.box-form.container
+      .box-title
+        h4 Registro Nueva Orquesta
+      form(method='POST' enctype='multipart/form-data')
+        | {% csrf_token %}
+        .box-content.container
+          .row
+            .col-md-6.pt-3.pb-3.p-sm-5
+              .row.form-group
+                .col-lg-4
+                  label(for="name") Nombre de la Orquesta:
+                .col-lg-8
+                  input#name.form-control(
+                  name="name" 
+                  type="text"
+                  value="{{ orchestra_form.name.value }}"
+                  required
+                  )
+                  .invalidFeedback
+                    | {{ orchestra_form.name.errors.0 }}
+              .row.form-group
+                .col-lg-4
+                  label(for="orchestra_type") Tipo de orquesta:
+                .col-lg-8
+                  .sel-wrapper
+                    #orchestra-type
+                  .invalidFeedback
+                    | {{ orchestra_form.orchestra_type.errors.0 }}
+              #location-picker
+              .form-group
+                label(for="day") Fecha de creación:
+                #date-picker
+                .invalidFeedback
+                  | {{ orchestra_form.creation_date.errors.0 }}
+            .col-md-6.pt-3.pb-3.p-sm-5.border-left.shadow-left
+              .form-group.text-center.text-md-left
+                #photo-upload
+                .invalidFeedback
+                  | {{ orchestra_form.photo.errors.0 }}
+              .form-group
+                #social-networks
+                .invalidFeedback
+                  | {{ orchestra_form.social_networks.errors.0 }}
+              .form-group
+                label(for="web") Website:
+                input#web.form-control(
+                  name="website" 
+                  type="text"
+                  value="{{ orchestra_form.website.value }}"
+                  placeholder="Ej: www.miorquesta.cl"
+                  )
+                .invalidFeedback
+                  | {{ orchestra_form.website.errors.0 }}
+        .bottom-box
+          .row
+            .col-xs-6
+              a.btn.btn-light(href="/dashboard/") Cancelar
+            .col-xs-6.text-right
+              button.btn.btn-primary(type='submit') Siguiente

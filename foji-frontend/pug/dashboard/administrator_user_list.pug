@@ -1,0 +1,12 @@
+extends ../base
+
+
+block title
+  | FOJI | Lista de Usuarios
+
+block body
+  .wrapper(aria-page="admin-user-list") 
+    include ../navbar
+    include ../navigation
+    .container 
+      #admin-user-list(data-can-add='{{ can_add }}')

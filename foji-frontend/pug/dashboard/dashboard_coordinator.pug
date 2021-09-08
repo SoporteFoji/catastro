@@ -1,0 +1,22 @@
+extends ../base
+
+
+block title
+  | FOJI | Home
+
+block body
+  .wrapper(aria-page="dashboard") 
+    include ../navbar
+    include ../navigation
+    .container
+      | {% if request.user.administrator %}
+      #admin-stats
+      .row
+        #latest-orchestras.col-lg-6.w-100
+        #latest-users.col-lg-6.w-100
+      | {% elif request.user.coordinator %}
+      #orchestra-list
+      | {% else %}
+      .alert.alert-info.my-4
+        p No estas ingresado como usuario.
+      | {% endif %}

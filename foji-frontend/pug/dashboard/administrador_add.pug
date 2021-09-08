@@ -1,0 +1,17 @@
+extends ../base
+
+block title
+  | FOJI | Agregar Administrador
+
+block body
+  .wrapper(aria-page="administrador-add")
+    include ../navbar
+    include ../navigation
+    #administrador-add(data-can-edit='{{ can_edit }}')
+    | {% if request.user.administrator %}
+    #user-type(data-usertype="administrator")
+    | {% elif request.user.coordinator %}
+    #user-type(data-usertype="coordinator")
+    | {% else %}
+    #user-type(data-usertype="visitor")
+    | {% endif %}

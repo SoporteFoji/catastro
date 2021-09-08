@@ -1,0 +1,19 @@
+extends ../base
+
+
+block title
+  | Orquestas FOJI
+
+block body
+  .wrapper#public(aria-page="home_public")
+    include ../navbar
+    include ../navigation
+    .float-content.catastro-title.mt-5
+      h4 Directorio
+      h1 Orquestas FOJI
+      .title-separator
+      p 
+        | Únete a la red más grande de orquestas juveniles e infantiles
+      a.btn.btn-primary.btn-big(href="/registro/coordinador/") Registra tu orquesta
+    #public-list
+

@@ -1,0 +1,140 @@
+/* ORCHESTRA INFO */
+.tmb-wrapper{
+  border: 0.4em solid #fff;
+  border-radius: 50%;
+  position: relative;
+  margin-top: -3em;
+  cursor: pointer;
+  box-shadow: 0px 3px 15px -2px rgba(0,0,0,0.25);
+  background-color: $cyan;
+}
+.tmb-xl{
+  width: 180px;
+  height: 180px;
+  background-size: cover;
+  border-radius: 50%;
+}
+
+#orchestra-info .camera-icon{
+  width: 3em;
+  height: 3em;
+  position: absolute;
+  left: 50%;
+  margin-left: -1.5em;
+  top: 50%;
+  margin-top: -1.5em;
+}
+.tmb-overlay{
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.4);
+  border-radius: 50%;
+  cursor: pointer;
+}
+#orchestra-info h5{
+  max-width: 70%;
+}
+#orchestra-info .marker-icon{
+  width: 1.8em;
+  height: 1.8em;
+  margin-top: 0.3em;
+  margin-right: 0.5em;
+  opacity: 0.23;
+}
+#orchestra-info .location{
+  max-width: 80%;
+}
+#orchestra-info .edit-icon{
+  width: 0.9em;
+  height: 0.9em;
+  margin-left: 0.5em;
+  opacity: 0.4;
+  margin-bottom: -0.1em;
+}
+/* ORCHESTRA TABS */
+.orchestra-tabs{
+  margin-top: 3.7em;
+}
+
+.orchestra-tabs .nav-tabs{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.orchestra-tabs .tab-pane{
+  display:none;
+}
+.orchestra-tabs .nav-tabs li{
+  display: inline-block;
+  border: solid;
+  border-color: $gray-200;
+  border-width: 1px 1px 0 1px;
+  margin: 0 0.3em 0 0;
+  border-top-left-radius: 0.3em;
+  border-top-right-radius: 0.3em;
+  background-color: $gray-90;
+}
+.orchestra-tabs .nav-tabs li.active{
+  position: relative;
+  background-color: #fff;
+}
+.orchestra-tabs .nav-tabs li.active:after{
+  height: 1px;
+  background-color: #fff;
+  width: 100%;
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  content: ' ';
+  z-index: 2;
+}
+.orchestra-tabs .tab-pane.active{
+  display:block;
+}
+.orchestra-tabs .nav-tabs a{
+  color: $gray-600;
+  font-size: 1.1em;
+  padding: 0.5em 2em;
+}
+.orchestra-tabs .user-info{
+  width: calc(100% - 30px);
+}
+.orchestra-tabs .members-row{
+  padding: 0 15px;
+}
+
+.orchestra-tabs .user-info:first-child{
+  border-right: 1px solid $gray-90;
+}
+.orchestra-tabs .user-info.empty{
+  background-color: $gray-50
+}
+@media (max-width: 992px) {
+  .orchestra-tabs .user-info:first-child{
+    border-right:0;
+    border-bottom: 1px solid $gray-90;
+  }
+  .orchestra-tabs .user-info{
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .orchestra-tabs .nav-tabs li{
+    display: block;
+    border-bottom: 1px solid #dcdcdc;
+    margin: 0;
+    border-radius: 0;
+  }
+  .orchestra-tabs .nav-tabs li:first-child{
+    border-top-left-radius: 0.3em;
+    border-top-right-radius: 0.3em;
+  }
+  .orchestra-tabs .nav-tabs li:last-child{
+    border-bottom: 0;
+  }
+}

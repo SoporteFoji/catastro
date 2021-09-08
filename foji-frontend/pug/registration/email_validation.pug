@@ -1,0 +1,22 @@
+extends ../base
+
+
+block title
+  | FOJI | Email validado
+
+block body
+  .wrapper(aria-page="email_validation")
+    include ../navbar
+    .float-content
+      .message.card.mt-4.d-inline-block.p-3.ml-3.mr-2
+        .success
+          .icon.success-icon
+          span Felicidades, tu cuenta de correo ha sido verificada
+      .vertical-login.mt-5.mx-auto
+        span.font-weight-bold Ingresa con tu usuario:
+        form.text-center.justify-content-center(method='POST' action='/ingresar/')
+          | {% csrf_token %}
+          #login-form.mt-3.ml-2.mr-2
+
+      
+

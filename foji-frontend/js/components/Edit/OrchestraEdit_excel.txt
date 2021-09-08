@@ -1,0 +1,12 @@
+<div className="full-box rounded-top-0 mt-0">
+          <div className="box-title">
+            <h4>Excel de Integrantes</h4>
+          </div>
+          <div className="box-content">
+            <div className="alert alert-secondary mt-4 mb-2 text-center">
+              Presiona <b>"Bajar plantilla Excel"</b> para descargar un archivo Excel con los integrantes actuales de la orquesta.<br />
+              En esta platilla podrás llenar o modificar datos y subirla haciendo click en <b>"Subir plantilla llenada"</b>.
+            </div>
+            <ExcelUpload url={'/orquesta/' + this.props.orchestra_id + '/integrantes.xlsx'} orchestra_id={this.props.orchestra_id} />
+          </div>
+        </div>

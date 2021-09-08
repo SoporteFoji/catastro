@@ -1,0 +1,15 @@
+extends ../base
+
+block title
+  | FOJI | Perfil del coordinador
+
+block body
+  .wrapper(aria-page="administrator_profile")
+    include ../navbar
+    include ../navigation
+    #coordinator-profile(data-coordinator-id='{{ object.id }}' data-can-edit='{{ can_edit }}')
+    | {% if request.user.administrator %}
+    #user-type(data-usertype="administrator")
+    | {% else %}
+    #user-type(data-usertype="visitor")
+    | {% endif %}

@@ -1,0 +1,14 @@
+Django
+djangorestframework
+celery
+
+openpyxl
+redis
+
+django-smtp-ssl
+
+gunicorn
+
+factory_boy
+faker
+django_extensions

@@ -1,0 +1,17 @@
+extends ../base
+
+block title
+  | FOJI | Perfil de la Orquesta
+
+block body
+  .wrapper(aria-page="orchestra_profile")
+    include ../navbar
+    include ../navigation
+    #orchestra-profile(data-orchestra-id='{{ object.id }}' data-can-edit='{{ can_edit }}' data-is-staff='{{ is_staff }}')
+    | {% if request.user.administrator %}
+    #user-type(data-usertype="administrator")
+    | {% elif request.user.coordinator %}
+    #user-type(data-usertype="coordinator")
+    | {% else %}
+    #user-type(data-usertype="visitor")
+    | {% endif %}

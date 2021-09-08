@@ -1,0 +1,17 @@
+extends ../base
+
+block title
+  | FOJI | Agregar Orquesta
+
+block body
+  .wrapper(aria-page="orchestra-add")
+    include ../navbar
+    include ../navigation
+    #orchestra-add(data-orchestra-id='{{ object.id }}' data-can-edit='{{ can_edit }}')
+    | {% if request.user.administrator %}
+    #user-type(data-usertype="administrator")
+    | {% elif request.user.coordinator %}
+    #user-type(data-usertype="coordinator")
+    | {% else %}
+    #user-type(data-usertype="visitor")
+    | {% endif %}

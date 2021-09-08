@@ -1,0 +1,29 @@
+# FOJI
+
+## How to run
+
+1. Create a python3 virtual environment:
+```
+$ virtualenv --python python3 .env/
+```
+
+2. Switch to virtual environment if needed:
+```
+$ source .env/bin/activate
+```
+
+3. Install Django:
+```
+$ pip install -r foji_project/requirements.txt
+```
+
+4. Run migrations and start the server:
+```
+$ cd foji_project/
+$ python manage.py makemigrations && python manage.py migrate && python manage.py runserver
+```
+
+5. Once the server is stopped, deactivate the virtual environment:
+```
+$ deactivate
+```

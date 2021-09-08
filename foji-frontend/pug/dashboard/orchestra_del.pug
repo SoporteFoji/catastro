@@ -1,0 +1,17 @@
+extends ../base
+
+block title
+  | FOJI | Borrar Orquesta
+
+block body
+  .wrapper(aria-page="orchestra_del")
+    include ../navbar
+    include ../navigation
+    #orchestra-del(data-orchestra-id='{{ object.id }}' data-can-del='{{ can_del }}')
+    | {% if request.user.administrator %}
+    #user-type(data-usertype="administrator")
+    | {% elif request.user.coordinator %}
+    #user-type(data-usertype="coordinator")
+    | {% else %}
+    #user-type(data-usertype="visitor")
+    | {% endif %}
